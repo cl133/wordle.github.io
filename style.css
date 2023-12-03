@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/554/595/non_2x/seamless-grunge-background-alphabet-font-funny-hand-draw-words-vector.jpg);
+}
+   
+h1 {
+  text-align: center;
+  margin-top: 55px;
+}
+   
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 5px solid #1a1919;
+}
+   
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #9d0cba;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+   
+button:active {
+  transform: scale(0.95);
+}
+   
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+}
+   
+.row{
+    margin-bottom: 10px;
+}
+   
+.input-area{
+    margin: 30px;
+}
+
+ 
